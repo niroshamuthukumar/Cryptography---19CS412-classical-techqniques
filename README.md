@@ -117,13 +117,14 @@ OUTPUT:
 
 Encryption:
 
+```
 ![alt text](1.png)
-
+```
 Decryption:
-
+```
 ![alt text](<decrypt 1.png>)
 
-
+```
 ## RESULT:
 The program is executed successfully
 
@@ -298,7 +299,9 @@ return 0;
 ```
 
 ## OUTPUT:
+```
 ![alt text](playfair.png)
+```
 ## RESULT:
 The program is executed successfully
 
@@ -382,8 +385,9 @@ return 0;
 
 
 ## OUTPUT:
+```
 ![alt text](HILL.png)
-
+```
 ## RESULT:
 The program is executed successfully
 
@@ -542,9 +546,9 @@ return 0;
 }
 ```
 ## OUTPUT:
-
+```
 ![alt text](vigenere.png)
-
+```
 ## RESULT:
 The program is executed successfully
 
@@ -622,7 +626,8 @@ return 0;
 }
 ```
 ## OUTPUT:
+```
 ![alt text](railfence.jpg)
-
+```
 ## RESULT:
 The program is executed successfully
