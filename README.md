@@ -45,24 +45,21 @@ CaearCipher.
     else if (c >= 'a' && c <= 'z') {
         text[i] = ((c - 'a' + key) % 26 + 26) % 26 + 'a';
     }
-// Ignore non-alphabetic characters
     }
 }
 
-// Function to perform Caesar Cipher decryption 
 void caesarDecrypt(char *text, int key) {
-// Decryption is the same as encryption with a negative key 
 caesarEncrypt(text, -key);
 }
 
 int main() {
-char message[100]; // Declare a character array to store the message int key;
-
+char message[100]; 
 printf("Enter the message to encrypt: ");
-fgets(message, sizeof(message), stdin); // Read input from the user printf("Enter the Caesar Cipher key (an integer): ");
-scanf("%d", &key); // Read the key from the user
-// Encrypt the message using the Caesar Cipher caesarEncrypt(message, key); printf("Encrypted Message: %s", message);
-// Decrypt the message back to the original
+fgets(message, sizeof(message), stdin); 
+printf("Enter the Caesar Cipher key (an integer): ");
+scanf("%d", &key); 
+// Encrypt the message using the Caesar Cipher caesarEncrypt(message, key);
+printf("Encrypted Message: %s", message);
  
 caesarDecrypt(message, key); printf("Decrypted Message: %s", message); return 0;
 }
